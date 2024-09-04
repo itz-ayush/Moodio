@@ -20,7 +20,7 @@ Moodio is a browser extension designed to help you stay focused by allowing you 
 ### Manual Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/MOODIO.git
+   git clone https://github.com/itz-ayush/Moodio.git
    ```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" and click "Load unpacked."
