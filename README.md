@@ -1,9 +1,9 @@
-## Moodio
+## **Moodio**
 Set your browser-mood with Moodio.
 
-MOODIO is a browser extension designed to help you stay focused by allowing you to create customized work profiles, block distracting websites, and set timers to keep you on track. Perfect for students, professionals, and anyone who wants to improve their productivity.
+Moodio is a browser extension designed to help you stay focused by allowing you to create customized work profiles, block distracting websites, and set timers to keep you on track. Perfect for students, professionals, and anyone who wants to improve their productivity.
 
-## **Features**
+## Features
 
 - **Work Profiles:** Create profiles with specific websites you need for work or study.
 - **Website Blocking:** Block distracting websites based on the profile you're using.
@@ -13,7 +13,7 @@ MOODIO is a browser extension designed to help you stay focused by allowing you 
 ## **Installation**
 
 ### Chrome
-1. Download the MOODIO extension from the Chrome Web Store (coming soon).
+1. Download the Moodio extension from the Chrome Web Store (coming soon).
 2. Click "Add to Chrome."
 3. Pin the extension to your toolbar for quick access.
 
@@ -28,7 +28,7 @@ MOODIO is a browser extension designed to help you stay focused by allowing you 
 
 ## **Usage**
 
-1. Click the MOODIO icon in your browser toolbar.
+1. Click the Moodio icon in your browser toolbar.
 2. Select a work profile or create a new one.
 3. Add websites to your profile and set the focus timer.
 4. Start your session and stay focused!
