@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Moodio",
+  "version": "1.0",
+  "description": "A productivity extension with timer and work modes",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "moodio1.png"
+    }
+  },
+  "icons": {
+    "48": "moodio1.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["moodio1.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

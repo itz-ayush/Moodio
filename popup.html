@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moodio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="initialSetup" class="view">
+    <h1>Welcome to Moodio</h1>
+    <p>Let's create modes and block distractions to boost your productivity!</p>
+    <button id="getStartedBtn" class="btn btn-primary">Get Started</button>
+  </div>
+
+  <div id="homeView" class="view">
+    <div class="container">
+      <h1>Moodio</h1>
+      
+      <section class="modes-section">
+        <h2>Your Modes</h2>
+        <div id="modesList"></div>
+      </section>
+      
+      <section class="timer-section">
+        <div id="timer" class="timer-display">25:00</div>
+        <div class="timer-controls">
+          <button id="startTimer" class="btn btn-icon"><i class="material-icons">play_arrow</i></button>
+          <button id="pauseTimer" class="btn btn-icon"><i class="material-icons">pause</i></button>
+          <button id="stopTimer" class="btn btn-icon"><i class="material-icons">stop</i></button>
+        </div>
+      </section>
+      
+      <section class="add-mode-section">
+        <h2>Add Mode</h2>
+        <button id="addModeBtn" class="btn btn-primary">Create New Mode</button>
+      </section>
+
+      <!-- <button id="testNotificationBtn" class="btn btn-secondary">Test Notification</button> -->
+    </div>
+  </div>
+
+  <div id="modeForm" class="view">
+    <h2 id="modeFormTitle">Create New Mode</h2>
+    <input type="text" id="modeName" placeholder="Mode name">
+    <input type="number" id="modeDuration" placeholder="Duration (minutes)">
+    <input type="text" id="modeUrls" placeholder="URLs to open (comma separated)">
+    <input type="text" id="modeBlockedSites" placeholder="Sites to block (comma separated)">
+    <button id="saveModeBtn" class="btn btn-primary">Save Mode</button>
+    <button id="cancelModeBtn" class="btn btn-secondary">Cancel</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+body {
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.view {
+  display: none;
+}
+
+h1, h2 {
+  margin-top: 0;
+  color: #0d47a1;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  font-weight: bold;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1976d2;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.btn-icon:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.modes-section, .timer-section, .add-mode-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.1);
+}
+
+.timer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer-display {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 5px;
+}
+
+#modesList {
+  margin-top: 10px;
+}
+
+.mode-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bbdefb;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s;
+}
+
+.mode-item span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.mode-item .btn-icon {
+  font-size: 16px;
+}
+
+.mode-item.active {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.mode-item.active .btn-icon {
+  color: #ffffff;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #1976d2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #0d47a1;
+}
+
+input::placeholder {
+  color: #90caf9;
+}
+
+#initialSetup {
+  text-align: center;
+}
+
+#initialSetup p {
+  margin-bottom: 20px;
+}
+
+#modeForm {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#modeForm h2 {
+  margin-bottom: 15px;
+}
+
+#modeForm input {
+  margin-bottom: 12px;
+}
+
+#modeForm button {
+  margin-right: 10px;
+}
